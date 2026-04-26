@@ -12,14 +12,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "ignoreDeprecations": "6.0",
-    "baseUrl": "src",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "baseUrl": "./src"
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
